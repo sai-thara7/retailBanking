@@ -1,0 +1,22 @@
+html {
+    height: 100%;
+}
+
+#message {
+    color: orange;
+}
+
+#accmsg {
+    color: green;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
